@@ -9,3 +9,4 @@ PUBLICAR EN PYTHONANYWHERE
 Abrir un Bash en PYTHONANYWHERE
 Línea de comndos: (cggiralda.pythonanywhere.com) 11:32 ~/cggiralda.pythonanywhere.com (master)$
 git pull
+python manage.py collectstatic
