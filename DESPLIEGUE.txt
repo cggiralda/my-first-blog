@@ -15,6 +15,10 @@ workon cggiralda.pythonanywhere.com
 Línea de comndos: (cggiralda.pythonanywhere.com) 11:32 ~/cggiralda.pythonanywhere.com (master)$
 git pull
 
+ACTUALIZAR MODELO DE DATOS
+python manage.py makemigrations blog
+python manage.py migrate blog
+
 Si no funciona git pull
 git checkout .
 git stash
